@@ -1,0 +1,24 @@
+[
+  {
+    "name": "PEQUI AIRLINES",
+    "image": "/pequi-airlines-cover.png",
+    "description": "Aplicação web para a companhia aérea fictícia Pequi Airlines.",
+    "technologies": [
+      "React", "Typescript", "HTML", "CSS"
+    ],
+    "repository": "https://github.com/heldoaugusto/pequiairlines",
+    "prototype": "https://www.figma.com/file/KiCu83qfwZhufAlKVIZock/Pequi-Airlines",
+    "aplication": "https://nostalgic-raman-d4ffc2.netlify.app/"
+  },
+  {
+    "name": "PAX SANTA CLARA",
+    "image": "/pax-santa-clara-cover.png",
+    "description": "Aplicação web desenvolvida para a funerária Pax Santa Clara.",
+    "technologies": [
+      "React", "Typescript", "HTML", "CSS", "Node", "Typeorm", "PostgreSQL"
+    ],
+    "repository": "",
+    "prototype": "https://www.figma.com/file/YEHdjr6Etc9XvhFunXQbuD/Pax-Santa-Clara",
+    "aplication": ""
+  }
+]

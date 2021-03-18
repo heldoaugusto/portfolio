@@ -1,0 +1,45 @@
+.box {
+  fill: transparent;
+  animation: box 12s ease infinite alternate;
+  stroke: var(--yellow);
+}
+
+@keyframes box {
+  0% {
+    stroke-width: 0;
+    fill: transparent;
+    stroke-dasharray: 1 100;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%,100% {
+    stroke-width: 0;
+    fill: var(--yellow);
+  }
+}
+
+.details {
+  fill: transparent;
+  animation: details 12s ease infinite alternate;
+  stroke: var(--white);
+}
+
+@keyframes details {
+  0% {
+    stroke-width: 0;
+    fill: transparent;
+    stroke-dasharray: 1 100;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%,100% {
+    stroke-width: 0;
+    fill: var(--white);
+  }
+}

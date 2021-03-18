@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  margin: 2rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--dark-gray);
+  border-radius: 5px;
+}
+
+.cardTitle {
+  width: 100%;
+  background-color: var(--gray);
+  padding: 0.5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.cardTitle h2 {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.cardContent {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContent img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cardContent p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.cardTechnologies {
+  width: 100%;
+  border-top: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+  margin: 1rem 0;
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.cardTechnologies h3 {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.cardButtons {
+ width: 100%;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.cardButtons button{
+  height: 3rem;
+  width: 100%;
+
+  margin: 0 0.2rem;
+
+  border: 1px solid var(--yellow);
+  border-radius: 5px;
+  background-color: transparent;
+
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+
+  transition: ease 0.4s;
+}
+
+.cardButtons button:hover{
+  background-color: var(--yellow);
+  color: var(--black);
+}

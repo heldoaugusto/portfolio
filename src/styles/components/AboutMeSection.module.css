@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.aboutMePhoto {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMePhoto img {
+  width: 80%;
+
+  border-radius: 50%;
+}
+
+.aboutMeDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeDescription img {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.aboutMeDescription p {
+  width: 90%;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.aboutMeDescription button {
+  width: 90%;
+  height: 4rem;
+
+  margin-top: 2rem;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--yellow);
+
+
+  font-size: 1.3rem;
+  font-weight: 600;
+}
