@@ -7,7 +7,7 @@
 
 .bar {
   width: 100vw;
-  height: 56px;
+  height: 72px;
 
   padding:  0 2rem;
 
@@ -17,7 +17,7 @@
 }
 
 .bar svg {
-  height: 75%;
+  height: 60%;
   width: auto;
 }
 

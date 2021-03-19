@@ -30,7 +30,7 @@ const Navbar:React.FC = () => {
             <ul>
               <Link
                 to="aboutme"
-                offset={-56}
+                offset={-72}
                 smooth
               >
                 <li key="aboutme">Sobre mim</li>
@@ -39,7 +39,7 @@ const Navbar:React.FC = () => {
               <Link
                 to="projects"
                 smooth
-                offset={-56}
+                offset={-72}
               >
                 <li key="projects">Projetos</li>
               </Link>
@@ -61,7 +61,7 @@ const Navbar:React.FC = () => {
             <Link
               to="aboutme"
               onClick={handleOpenCloseMenu}
-              offset={-56}
+              offset={-72}
               smooth
             >
               <li key="aboutme">Sobre mim</li>
@@ -70,7 +70,7 @@ const Navbar:React.FC = () => {
             <Link
               to="projects"
               onClick={handleOpenCloseMenu}
-              offset={-56}
+              offset={-72}
               smooth
             >
               <li key="projects">Projetos</li>

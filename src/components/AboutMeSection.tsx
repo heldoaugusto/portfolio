@@ -19,7 +19,7 @@ const AboutMeSection: React.FC = () => (
         do usuário.
       </p>
 
-      <Link to="projects" smooth offset={-56}>
+      <Link to="projects" smooth offset={-72}>
         Conheça meus projetos
       </Link>
 

@@ -42,7 +42,7 @@
     "id": 1,
     "name": "Pax Santa Clara",
     "image": "/covers/pax-santa-clara-cover.png",
-    "description": "Aplicação web desenvolvida para a funerária Pax Santa Clara.",
+    "description": "Aplicação web e API desenvolvidas para a funerária Pax Santa Clara.",
     "technologies": [
       {
         "id": 0,
@@ -137,6 +137,33 @@
   },
   {
     "id": 4,
+    "name": "GoBarber App Mobile",
+    "image": "/covers/gobarber-app-cover.png",
+    "description": "Aplicativo móvel desenvolvido ao longo do Bootcamp GoStack 11.",
+    "technologies": [
+      {
+        "id": 0,
+        "name": "React Native"
+      },
+      {
+        "id": 1,
+        "name": "Typescript"
+      },
+      {
+        "id": 2,
+        "name": "HTML"
+      },
+      {
+        "id": 3,
+        "name": "CSS"
+      }
+    ],
+    "repository": "https://github.com/heldoaugusto/gobarber-app",
+    "prototype": "",
+    "application": ""
+  },
+  {
+    "id": 5,
     "name": "Move.it",
     "image": "/covers/moveit-cover.png",
     "description": "Aplicação web desenvolvida na Next Level Week (NLW) 4.",
