@@ -61,6 +61,7 @@ const Navbar:React.FC = () => {
             <Link
               to="aboutme"
               onClick={handleOpenCloseMenu}
+              offset={-56}
               smooth
             >
               <li key="aboutme">Sobre mim</li>
@@ -69,6 +70,7 @@ const Navbar:React.FC = () => {
             <Link
               to="projects"
               onClick={handleOpenCloseMenu}
+              offset={-56}
               smooth
             >
               <li key="projects">Projetos</li>
