@@ -34,37 +34,34 @@
   width: auto;
 }
 
-.menuInline {
+.menuDesktop {
   display: none;
 }
 
-.menuInline ul {
+.menuDesktop ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.menuInline li {
+.menuDesktop li {
   list-style: none;
   font-size: 1.2rem;
   margin-left: 4rem;
   position: relative;
   cursor: pointer;
+
+  transition: 0.2s ease;
 }
 
-.menuInline li:hover{
+.menuDesktop li:hover{
   display: block;
   font-weight: 600;
 }
 
-.menuInline li:hover::after{
-  font-weight: 600;
-  width: 100%;
-}
-
-.menuInline li::after {
+.menuDesktop li::after {
   content: '';
-  display: block;
+  display: none;
 
   height: 2px;
   width: 0px;
@@ -74,8 +71,16 @@
   position: absolute;
 
   background-color: var(--yellow);
+}
 
-  transition: 0.2s ease;
+.menuDesktop li:hover::after{
+  display: block;
+  animation: yellowbar 0.6s ease forwards;
+}
+
+@keyframes yellowbar {
+  0%{width: 0;}
+  100%{width: 100%;}
 }
 
 .menu {
@@ -125,7 +130,7 @@
     display: none;
   }
 
-  .menuInline {
+  .menuDesktop {
     display: flex;
   }
 }

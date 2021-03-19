@@ -26,7 +26,7 @@ const Navbar:React.FC = () => {
               : <FiMenu onClick={handleOpenCloseMenu} />}
           </div>
 
-          <div className={styles.menuInline}>
+          <div className={styles.menuDesktop}>
             <ul>
               <Link
                 to="aboutme"
