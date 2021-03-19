@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 
 import styles from '../styles/pages/Home.module.css';
@@ -10,6 +11,10 @@ import ContactSection from '../components/ContactSection';
 
 const Home:React.FC = () => (
   <>
+    <Head>
+      <title>Heldo Augusto</title>
+    </Head>
+
     <div className={styles.loadingContainer}>
       <Logo />
     </div>
