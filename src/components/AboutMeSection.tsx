@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Link } from 'react-scroll';
+
 import styles from '../styles/components/AboutMeSection.module.css';
 
 const AboutMeSection: React.FC = () => (
-  <section className={styles.container}>
+  <section className={styles.container} id="aboutme">
     <div className={styles.aboutMePhoto}>
       <img src="/heldoaugusto.png" alt="Foto Heldo Augusto" />
     </div>
@@ -16,7 +18,11 @@ const AboutMeSection: React.FC = () => (
         interfaces com mindset voltado à experiência
         do usuário.
       </p>
-      <button type="button">Conheça meus projetos</button>
+
+      <Link to="projects" smooth offset={-56}>
+        Conheça meus projetos
+      </Link>
+
     </div>
 
   </section>

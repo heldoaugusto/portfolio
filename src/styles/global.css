@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 56px;
+}
+
+html:not([data-scroll='0']) body {
+  padding-top: 56px;
+}
+
+html:not([data-scroll='0']) header {
+  position: fixed;
+  top: 0;
+}
+
 :root {
   --white: #FAFAFA;
   --yellow: #F9CA09;
@@ -27,6 +40,7 @@
 body {
   background: var(--black);
   color: var(--white);
+  overflow-x: hidden;
 }
 
 body, input, textarea, button {

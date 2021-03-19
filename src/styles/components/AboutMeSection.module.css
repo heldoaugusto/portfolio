@@ -1,9 +1,10 @@
 .container {
+  min-height: calc(100vh - 56px);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 96px;
 }
 
 .aboutMePhoto {
@@ -37,17 +38,67 @@
   margin-top: 1rem;
 }
 
-.aboutMeDescription button {
+.aboutMeDescription a {
   width: 90%;
   height: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   margin-top: 2rem;
 
   border: none;
   border-radius: 5px;
   background-color: var(--yellow);
+  color: var(--black);
 
 
   font-size: 1.3rem;
   font-weight: 600;
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: 0.4s ease;
+}
+
+.aboutMeDescription a:hover {
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--yellow);
+}
+
+@media(min-width: 768px) {
+  .container {
+    margin-top: 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media(min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutMePhoto {
+    width: 80%;
+  }
+
+  .aboutMeDescription {
+    align-items: flex-start;
+  }
+
+  .aboutMeDescription p {
+    text-align: left;
+  }
+
+  .aboutMeDescription img {
+    margin-top: 0;
+  }
+
+  .aboutMeDescription a {
+    width: 50%;
+  }
 }

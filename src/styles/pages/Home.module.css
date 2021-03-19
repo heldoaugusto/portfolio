@@ -1,20 +1,63 @@
 .loadingContainer {
-  height: 0;
-  width: 0;
-  left: 0;
+  height: 100vh;
+  width: 100vw;
   top: 0;
+  left: 0;
+
+  background-color: var(--black);
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: absolute;
+
+  animation: loading 2s ease forwards;
+  animation-delay: 6s;
+}
+
+@keyframes loading {
+  0%{transform: translateX(0); visibility: visible;}
+  100%{
+    transform: translateX(-100vw);
+    visibility: hidden;
+  }
 }
 
 .container {
-  height: 100vh;
   width: 100vw;
   
   padding: 0 2rem;
 
   display: flex;
   flex-direction: column;
+
+  animation: showContainer 6s ease;
+}
+
+@keyframes showContainer {
+  0%{
+    overflow: hidden;
+    height: 0;
+  }
+  99%{
+    overflow: hidden;
+    height: 0;
+  }
+  100%{
+    overflow: scroll;
+    height: auto;
+  }
+}
+
+@media(min-width: 768px) {
+  .container{
+    padding: 0 4rem;
+  }
+}
+
+@media(min-width: 1024px) {
+  .container{
+    padding: 0 6rem;
+  }
 }

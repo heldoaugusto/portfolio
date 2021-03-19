@@ -3,13 +3,11 @@
   flex-direction: column;
   
   background-color: var(--black);
-
-  position: fixed;
 }
 
 .bar {
   width: 100vw;
-  height: 96px;
+  height: 56px;
 
   padding:  0 2rem;
 
@@ -18,16 +16,78 @@
   justify-content: space-between;
 }
 
-.bar svg:first-child {
+.bar svg {
+  height: 75%;
+  width: auto;
+}
+
+.menuIcon {
+  height: 100%;
+  width: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.menuIcon svg {
   height: 60%;
   width: auto;
+}
+
+.menuInline {
+  display: none;
+}
+
+.menuInline ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuInline li {
+  list-style: none;
+  font-size: 1.2rem;
+  margin-left: 4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuInline li:hover{
+  display: block;
+  font-weight: 600;
+}
+
+.menuInline li:hover::after{
+  font-weight: 600;
+  width: 100%;
+}
+
+.menuInline li::after {
+  content: '';
+  display: block;
+
+  height: 2px;
+  width: 0px;
+
+  left: 0;
+
+  position: absolute;
+
+  background-color: var(--yellow);
+
+  transition: 0.2s ease;
 }
 
 .menu {
   width: 100vw;
   height: 100vh;
 
-  animation: openMenu 0.5s ease;
+  position: absolute;
+
+  background-color: var(--black);
+
+  animation: openMenu 0.3s ease;
+
 } 
 
 .menu li {
@@ -35,7 +95,7 @@
   text-align: center;
   margin-top: 3rem;
 
-  animation: showItems 1.2s ease;;
+  animation: showItems 0.8s ease-in-out;
 }
 
 @keyframes openMenu {
@@ -54,4 +114,24 @@
   100% {
     transform: translateY(0);
   }
-} 
+}
+
+@media(min-width: 768px) {
+  .bar{
+    padding: 0 4rem;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .menuInline {
+    display: flex;
+  }
+}
+
+@media(min-width: 1024px) {
+  .bar{
+    padding: 0 6rem;
+  }
+}

@@ -1,24 +1,169 @@
 [
   {
-    "name": "PEQUI AIRLINES",
-    "image": "/pequi-airlines-cover.png",
-    "description": "Aplicação web para a companhia aérea fictícia Pequi Airlines.",
+    "id": 0,
+    "name": "Pequi Airlines",
+    "image": "/covers/pequi-airlines-cover.png",
+    "description": "Página inicial da companhia aérea fictícia Pequi Airlines. A execução deste projeto consistiu na criação da identidade visual, prototipação e implementação da aplicação web.",
     "technologies": [
-      "React", "Typescript", "HTML", "CSS"
+      {
+        "id": 0,
+        "name": "Photoshop"
+      },
+      {
+        "id": 1,
+        "name": "Corel Draw"
+      },
+      {
+        "id": 2,
+        "name": "Figma"
+      },
+      {
+        "id": 3,
+        "name": "React"
+      },
+      {
+        "id": 4,
+        "name": "Typescript"
+      },
+      {
+        "id": 5,
+        "name": "HTML"
+      },
+      {
+        "id": 6,
+        "name": "CSS"
+      }
     ],
     "repository": "https://github.com/heldoaugusto/pequiairlines",
     "prototype": "https://www.figma.com/file/KiCu83qfwZhufAlKVIZock/Pequi-Airlines",
-    "aplication": "https://nostalgic-raman-d4ffc2.netlify.app/"
+    "application": "https://nostalgic-raman-d4ffc2.netlify.app/"
   },
   {
-    "name": "PAX SANTA CLARA",
-    "image": "/pax-santa-clara-cover.png",
+    "id": 1,
+    "name": "Pax Santa Clara",
+    "image": "/covers/pax-santa-clara-cover.png",
     "description": "Aplicação web desenvolvida para a funerária Pax Santa Clara.",
     "technologies": [
-      "React", "Typescript", "HTML", "CSS", "Node", "Typeorm", "PostgreSQL"
+      {
+        "id": 0,
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "name": "Typescript"
+      },
+      {
+        "id": 2,
+        "name": "HTML"
+      },
+      {
+        "id": 3,
+        "name": "CSS"
+      },
+      {
+        "id": 4,
+        "name": "Node"
+      },
+      {
+        "id": 5,
+        "name": "TypeORM"
+      },
+      {
+        "id": 6,
+        "name": "PostgreSQL"
+      }
     ],
     "repository": "",
     "prototype": "https://www.figma.com/file/YEHdjr6Etc9XvhFunXQbuD/Pax-Santa-Clara",
-    "aplication": ""
+    "application": ""
+  },
+  {
+    "id": 2,
+    "name": "Portfólio",
+    "image": "/covers/portfolio-cover.png",
+    "description": "Site para expor meus projetos e informações para contato.",
+    "technologies": [
+      {
+        "id": 0,
+        "name": "Next"
+      },
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "Typescript"
+      },
+      {
+        "id": 3,
+        "name": "HTML"
+      },
+      {
+        "id": 4,
+        "name": "CSS"
+      }
+    ],
+    "repository": "https://github.com/heldoaugusto/portfolio",
+    "prototype": "https://www.figma.com/file/iihLyJEW3009uYU5Tz7eLZ/Portf%C3%B3lio-Heldo-Augusto",
+    "application": ""
+  },
+  {
+    "id": 3,
+    "name": "GoBarber Web",
+    "image": "/covers/gobarber-web-cover.png",
+    "description": "Aplicação web desenvolvida ao longo do Bootcamp GoStack 11.",
+    "technologies": [
+      {
+        "id": 0,
+        "name": "React"
+      },
+      {
+        "id": 1,
+        "name": "Typescript"
+      },
+      {
+        "id": 2,
+        "name": "HTML"
+      },
+      {
+        "id": 3,
+        "name": "CSS"
+      }
+    ],
+    "repository": "https://github.com/heldoaugusto/gobarber-web",
+    "prototype": "",
+    "application": ""
+  },
+  {
+    "id": 4,
+    "name": "Move.it",
+    "image": "/covers/moveit-cover.png",
+    "description": "Aplicação web desenvolvida na Next Level Week (NLW) 4.",
+    "technologies": [
+      {
+        "id": 0,
+        "name": "Next"
+      },
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "Typescript"
+      },
+      {
+        "id": 3,
+        "name": "HTML"
+      },
+      {
+        "id": 4,
+        "name": "CSS"
+      }
+    ],
+    "repository": "https://github.com/heldoaugusto/moveit",
+    "prototype": "",
+    "application": "https://moveit-two-gold-14.vercel.app/"
   }
 ]
