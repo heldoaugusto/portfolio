@@ -13,7 +13,7 @@
   position: absolute;
 
   animation: loading 2s ease forwards;
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 
 @keyframes loading {
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
 
-  animation: showContainer 6s ease;
+  animation: showContainer 3s ease;
 }
 
 @keyframes showContainer {

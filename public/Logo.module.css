@@ -1,6 +1,6 @@
 .box {
   fill: transparent;
-  animation: box 12s ease infinite alternate;
+  animation: box 8s ease infinite alternate;
   stroke: var(--yellow);
 }
 
@@ -23,7 +23,7 @@
 
 .details {
   fill: transparent;
-  animation: details 12s ease infinite alternate;
+  animation: details 8s ease infinite alternate;
   stroke: var(--white);
 }
 
